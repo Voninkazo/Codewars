@@ -8,12 +8,12 @@
 // "This is a test        --> "This is a test"
 // "This is another test" --> "This is rehtona test"
 
-// ******* STEPA ********
+// ******* STEPS ********
 // Create a function that take a string of words as a parameter
 // Split the the string by space to get an array of words
 // Map through the array and then split each item again to get an array of letters
 // Then check if the lenght of array is more than 4, reverse the array and then join it to get the reversed word
-// If the length is less than 4, just join the word back
+// If the length is less than 5, just join the word back
 // Then at the end, return the array
 
 function spinWords(string) {
